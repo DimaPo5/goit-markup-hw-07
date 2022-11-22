@@ -13,9 +13,7 @@
 .site-nav__link {
   @extend %header-item;
 
-  padding-top: 32px;
-  padding-bottom: 32px;
-  display: block;
+    display: block;
 }
 
 .site-nav__link--active {
@@ -29,6 +27,8 @@
     display: flex;
     border-radius: 2px;
     position: absolute;
+    top: 30px;
+    margin-top: 15px;
     left: 0;
     bottom: 0;
   }

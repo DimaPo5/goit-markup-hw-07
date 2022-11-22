@@ -157,7 +157,9 @@ img {
 
 /* page-header */
 .header {
-  position: relative;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container,
@@ -183,8 +185,6 @@ img {
 }
 
 .site-nav__link {
-  padding-top: 32px;
-  padding-bottom: 32px;
   display: block;
 }
 
@@ -199,6 +199,8 @@ img {
   display: flex;
   border-radius: 2px;
   position: absolute;
+  top: 30px;
+  margin-top: 15px;
   left: 0;
   bottom: 0;
 }
