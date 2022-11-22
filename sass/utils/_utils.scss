@@ -1,0 +1,25 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.visualy-hidden {
+  appearance: none;
+}
+
+// стилі для контейнера
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}

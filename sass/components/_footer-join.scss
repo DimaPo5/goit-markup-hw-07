@@ -1,0 +1,15 @@
+/* приєднатися */
+
+.footer-join {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
+
+.footer-join__title {
+  @extend %footer-title;
+}
+
+.join-social {
+  @extend %flex-item;
+}

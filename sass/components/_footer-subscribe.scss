@@ -1,0 +1,52 @@
+/* підписатися */
+
+.footer-subscribe {
+  width: 570px;
+  margin-left: 93px;
+}
+
+.footer-subscribe__title {
+  @extend %footer-title;
+}
+
+.subscribe-form {
+  @extend %flex-item;
+  justify-content: space-between;
+}
+
+.subscribe-form__mail {
+  width: 358px;
+  height: 50px;
+
+  background-color: var(--secondary-color-fon);
+
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  filter: drop-shadow(
+    0px 4px 4px rgba(0, 0, 0, 0.15)
+  );
+  border-radius: 4px;
+  padding-left: 15px;
+
+  @include font(400, 16px, 1.25);
+
+  color: #FFFFFF;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.subscribe-form__btn {
+  position: relative;
+  padding-left: 29px;
+  text-align: left;
+}
+
+.subscribe-form__svg {
+  position: absolute;
+  top: 13px;
+  right: 28px;
+  fill:#FFFFFF;
+}

@@ -1,0 +1,41 @@
+/* футер */
+
+.footer {
+  background: var(--secondary-color-fon);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  @extend %flex-item;
+  align-items: baseline;
+}
+
+.footer-contacts {
+  width: 231px;
+}
+
+.footer-address__item {
+  margin-bottom: 9px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.footer-address__link {
+  font-style: normal;
+  line-height: 1.71;
+  text-decoration: none;
+  color: var(--white-color);
+  transition: color 250ms var(--cubic-bazier);
+
+  &:hover,
+  &:focus {
+    color: var(--acent-color);
+  }
+}
+
+.footer-address__link--grey {
+  color: rgba(255, 255, 255, 0.6);
+}

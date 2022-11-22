@@ -1,0 +1,22 @@
+/* page-header */
+
+.header {
+  position: relative;
+}
+
+.header-container,
+.header-nav {
+  @extend %flex-item;
+  align-items: center;
+}
+
+.header-line__bottom {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: -1;
+
+  width: 100%;
+
+  border-bottom: 1px solid #ececec;
+}

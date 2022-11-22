@@ -1,0 +1,47 @@
+// иконки на соц.сети
+
+.social-network {
+  @extend %flex-item;
+
+  width: 206px;
+  height: 44px;
+
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.social-network__item + .social-network__item {
+  margin-left: 10px;
+}
+
+.social-network__link {
+  @extend %flex-item;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+
+  fill: #afb1b8;
+  border-radius: 50%;
+  transition: fill 250ms var(--cubic-bazier),
+    background-color 250ms var(--cubic-bazier);
+
+  &:hover,
+  &:focus {
+    fill: var(--white-color);
+    background-color: var(--acent-color);
+  }
+}
+
+.social-network__svg {
+  width: 20px;
+  height: 20px;
+}
+
+// иконки футер на соц.сети
+
+.social-network__link--grey {
+  background: rgba(255, 255, 255, 0.1);
+  fill: var(--white-color);
+}

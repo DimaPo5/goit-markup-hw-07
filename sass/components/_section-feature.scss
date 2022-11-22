@@ -1,0 +1,42 @@
+/* Feature */
+.feature-list {
+  @extend %flex-item;
+}
+
+.feature-list__item {
+  width: 270px;
+  margin-left: 30px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.feature-icon {
+  @extend %flex-item;
+  justify-content: center;
+  align-items: center;
+
+  height: 120px;
+
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.feature-icon__svg {
+  width: 70px;
+  height: 70px;
+}
+
+.feature-list__title {
+  @include font(700, 14px, 1.14);
+
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.feature-list__text {
+  line-height: 1.71;
+  color: var(--secondary-color);
+}

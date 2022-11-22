@@ -1,0 +1,20 @@
+:root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --acent-color: #2196f3;
+  --white-color: #ffffff;
+  --secondary-color-fon: #2f303a;
+
+  --indent-set-gup: 30px;
+  --cubic-bazier: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+body {
+  background-color: var(--white-color);
+  font-family: Roboto, sans-serif;
+  color: var(--main-color);
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}

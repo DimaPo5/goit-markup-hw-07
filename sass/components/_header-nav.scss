@@ -1,0 +1,35 @@
+/* header Site-nav */
+
+.site-nav {
+  @extend %flex-item;
+
+  margin-left: 93px;
+
+  &__item:nth-child(n + 2) {
+    margin-left: 50px;
+  }
+}
+
+.site-nav__link {
+  @extend %header-item;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+}
+
+.site-nav__link--active {
+  position: relative;
+
+  &::after {
+    content: '';
+    background-color: var(--acent-color);
+    height: 4px;
+    width: 100%;
+    display: flex;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,32 @@
+/* header-contacts */
+
+.header-contacts {
+  @extend %flex-item;
+
+  margin-left: auto;
+
+  &__item:nth-child(n + 2) {
+    margin-left: 30px;
+  }
+}
+
+.header-contacts__link {
+  @extend %header-item;
+
+  display: inline-flex;
+  align-items: center;
+
+  color: var(--secondary-color);
+}
+
+.header-icon__button {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+.hero-container {
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+}
