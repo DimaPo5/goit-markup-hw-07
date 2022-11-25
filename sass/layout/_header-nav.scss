@@ -18,6 +18,7 @@
 
 .site-nav__link--active {
   position: relative;
+  color: var(--acent-color);
 
   &::after {
     content: '';

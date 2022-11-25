@@ -1,32 +1,36 @@
-@import './utils/variables';
-@import './base/reset';
-@import './utils/visually-hidden.scss';
-@import './utils/utils';
-@import './utils/placeholder';
 @import './utils/mixins';
+@import './utils/placeholder';
+@import './utils/utils';
+@import './utils/variables';
+@import './utils/visually-hidden';
 
-@import './layout/logo';
+@import './base/common';
+@import './base/reset';
 
-@import './components/header';
-@import './components/header-nav';
-@import './components/header-contacts';
-
-@import './components/section-hero';
-@import './components/section-feature';
-@import './components/section-work';
-@import './components/section-command';
-@import './components/section-clients';
-
-@import './layout/social-network';
-
-@import './components/footer';
-@import './components/footer-join';
-@import './components/footer-subscribe';
-
-@import './components/portfolio-filter';
-@import './components/portfolio-content';
-
-@import './layout/card-set';
-
+@import './components/logo';
+@import './components/section';
+@import './components/social-network';
+@import './components/card-set';
 @import './components/modal';
 @import './components/modal-form';
+
+
+@import './layout/header';
+@import './layout/header-nav';
+@import './layout/header-contacts';
+@import './layout/section-hero';
+@import './layout/section-feature';
+@import './layout/section-work';
+@import './layout/section-command';
+@import './layout/section-clients';
+@import './layout/footer';
+@import './layout/footer-join';
+@import './layout/footer-subscribe';
+
+@import './layout/portfolio-content';
+@import './layout/portfolio-filter';
+
+
+
+
+
